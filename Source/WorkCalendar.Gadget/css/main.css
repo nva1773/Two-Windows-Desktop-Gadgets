@@ -1,0 +1,195 @@
+﻿/*
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2009 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+body        
+{
+    font:10px segoe ui,tahoma;
+    color:black;
+    margin:0;
+    border:none;
+    cursor:default;
+}
+body,
+*           
+{
+    overflow:hidden
+}
+
+TABLE
+{
+    border-collapse:collapse;
+}
+
+#ellipsisMiddle
+{
+    line-height:60px;
+    font-size:75px;
+    padding-bottom:10px;
+}
+
+#ellipsisHeadingTop
+{
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width:90px;
+    font-size:13px;
+    padding-bottom:5px;
+}
+
+#ellipsisHeadingBottom
+{
+    padding-left:5px;
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width:115px;
+    font-size:13px;
+    padding-bottom:10px;
+}
+
+#tID
+{
+    position:relative;
+    top:1px;
+    overflow:hidden;
+    padding-bottom:4px;
+}
+
+#divBgImage
+{
+    position:absolute;
+    left:-4;
+    top:-12;
+    width:125;
+    height:136;
+    z-index:-5;
+    overflow:hidden;
+}
+
+#divFilter 
+{
+    position:absolute;
+    z-index:10;
+    left:4;
+    top:11;
+    width:121;
+    height:127;
+    overflow:hidden;
+    filter:progid:DXImageTransform.Microsoft.Iris(Duration=0,irisStyle='SQUARE'),
+    progid:DXImageTransform.Microsoft.Fade(Duration=0,overlap=1.0);
+}
+
+div.year      
+{
+    position:absolute;
+    left:-1;
+    top:1;
+    width:120;
+    height:120;
+    overflow:hidden;
+}
+div.day
+{
+    position:absolute;
+    left:0px;
+    top:5px;
+    width:120px;
+    
+    overflow:hidden;
+}
+div.month    
+{
+    position:absolute;
+    left:-2;
+    top:6;
+    width:120;
+    height:120;
+    overflow:hidden;
+}
+div.cal     
+{
+    position:absolute;
+    left:2;
+    top:0;
+    width:120;
+    height:117;
+    overflow:hidden;
+    filter:progid:DXImageTransform.Microsoft.Strips;
+}
+div.month span
+{
+    position:absolute;
+    top:-6;
+    left:0;
+    width:120;
+    height:122;
+    overflow:hidden;
+}
+div.prevnext
+{
+    visibility:hidden;
+    position:absolute;
+    z-index:50;
+    top:10;
+    width:123;
+    height:28;
+    padding:10 0 0 2;
+    text-align:center;
+}
+
+#dowId
+{
+    border-collapse:collapse;
+    position:relative;
+    top:3;
+    z-index:10;
+}
+
+q.day       {width:15;height:13;margin-left:2;padding:0 2 1 0;text-align:right}
+q.today     {background:#10e291;color:white}
+q.dow       {font:bold;color:#10e291}
+q.name      {font:bold;color:gray}
+q.sat      {font:bold;color:blue}
+q.sun      {font:bold;color:red}
+q.dim       {color:silver}
+q.hot       {color:#ff6400}
+q.sel       {background:black;color:white}
+q.lb 	{border-left:1 solid #dedfde}
+q.morning	{background:yellow;color:black}
+q.night	{background:cyan;color:black}
+q.dim_morning	{background:yellow;color:silver}
+q.dim_night	{background:cyan;color:silver}
+
+img.curl
+{
+    visibility:hidden;z-index:-5;position:absolute;left:0;bottom:2;
+}
+
+#HitRegion
+{
+    visibility:hidden;
+    position:absolute;
+    width:27px;
+    height:27px;
+    z-index:15;
+    position:absolute;
+    left:0;
+    bottom:0;    
+}
+
+.divMonthView
+{
+    position:absolute;
+    top:27px;
+    left:0px;
+    z-index:-5;
+    overflow:hidden;
+}

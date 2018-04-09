@@ -1,0 +1,103 @@
+<!--
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2009 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+<html>
+<head>
+	<meta http-equiv="MSThemeCompatible" CONTENT="yes" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Alarm Clock Settings</title>
+	<link href="css/settings.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/settings.js" ></script>
+</head>
+
+<body style="color:#333333;" onLoad="Init()">
+	<object id="s_player" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6" width="120" height="20" style="position:absolute; top:1px; left:1px; visibility:hidden"></object>
+	<table align="left" cellspacing="10">
+		<tr>
+			<td align="right">
+				<span >Second</span>
+			</td>
+			<td>
+				<span >ticked:</span>
+				&nbsp &nbsp &nbsp
+				<input type="checkbox" id="chSecond" name="cbSecond" /> 
+				<label >Enabled</label>
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"> 
+				<hr width="100%" />
+			</td>
+		</tr>
+		<tr>
+			<td align="right">
+				<span >Alarm:</span>
+			</td>
+			<td>
+				<input type="text" size="2" maxlength="2" style="width:25" name="txtHour" />
+				:
+				<input type="text" size="2" maxlength="2" style="width:25" name="txtMinute" />
+				&nbsp
+				<input type="checkbox" id="chActive" name="cbActive" /> 
+				<label >Enabled</label>
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"> 
+				<hr width="100%" />
+			</td>
+		</tr>
+		<tr>
+			<td align="right">
+				<span >Signal:</span>
+			</td>
+			<td>
+				<select id="selSignal" style="width:75;font-size:13px;" name="select_signal" size="1" >
+					<option value="1">Alarm 1</option>
+					<option value="2">Alarm 2</option>
+					<option value="3">Alarm 3</option>
+					<option value="4">Alarm 4</option>
+					<option value="5">Alarm 5</option>
+				</select>
+				<input type="checkbox" id="cbRepeat" />
+				<label for="cbRepeat" >Repeat</label>
+			</td>
+		</tr>
+		<tr>
+			<td align="right"> 
+				<button id="btPlay" style="font-size:13px;" onClick="onClickPlay()">- Play -</button>
+			</td>
+			<td align="right">
+				<button id="btStop" style="font-size:13px;" onClick="onClickStop()">- Stop -</button>
+				&nbsp &nbsp
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"> 
+			
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"> 
+			
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"> 
+				<hr width="100%" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" > 
+				<b style="font-size:13px; color:black;">Copyright (c) 2016 NVA.</b>
+			</td>
+		</tr>			
+	</table>
+</body>
+</html>

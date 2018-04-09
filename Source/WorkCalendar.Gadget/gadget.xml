@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+    <name>Work Calendar</name>
+    <version>1.0</version>
+    <author name="Novikov Vlad">
+	  <logo src="images/logo.png" /> 
+	</author>
+    <copyright>© 2016 NVA</copyright>
+    <description>Gadget calendar for 12-hour work date.</description>
+    <icons>
+        <icon height="96" width="96" src="images/icon.png" />
+    </icons>
+    <hosts>
+        <host name="sidebar">
+            <base type="HTML" apiVersion="1.0.0" src="main.html" />
+            <permissions>Full</permissions>
+            <platform minPlatformVersion="1.0" />
+            <defaultImage src="images/drag.png" />
+        </host>
+    </hosts>
+</gadget>

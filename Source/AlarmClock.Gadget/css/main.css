@@ -1,0 +1,35 @@
+﻿/*
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2009 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+body 
+{ 
+	width:130px;
+	height:67px;
+	margin:5px;
+}
+
+#hour,#minute
+{
+	color: #DDDDDD;
+	font-size: x-large;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#second
+{
+	font-size: x-large;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#alarm
+{
+	color: #DDDDDD;
+	font-size: x-small;
+}
