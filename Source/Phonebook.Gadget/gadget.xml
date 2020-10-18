@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>Phonebook</name>
+	<version>1.2</version>
+	<author name="Novikov Vlad">
+                <logo src="images/logo.png" />		
+	</author>
+	<copyright>© 2019 NVA</copyright>
+	<description>Phonebook gadget for Windows.</description>
+	<icons>
+		<icon height="71" width="60" src="images/logo.png" />
+	</icons>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0" src="main.html" />
+			<permissions>full</permissions>
+			<platform minPlatformVersion="1.0" />
+			<defaultImage src="images/drag.png" />
+		</host>
+	</hosts>
+</gadget>

@@ -1,0 +1,33 @@
+<!--
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2019 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+
+<html>
+	<head>
+		<meta http-equiv="MSThemeCompatible" CONTENT="yes" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>VNC Gadget</title>
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+		<script language="javascript" type="text/javascript" src="js/settings.js"></script>
+		<script language="javascript" type="text/javascript" src="js/main.js"></script>
+	</head>
+	
+	<body scroll="no" unselectable="on" onLoad="initMain()">
+		<g:background id="imgBackground" style="position:absolute; top:0; left:0; z-index:-1; no=repeat;" />
+		<div align="center" >
+			<button id="btInput" onClick="onClickInput()" >Input</button>
+			<button id="btSelect" onClick="onClickSelect()" >Select</button>
+		</div>
+		<div align="center">
+			<input id="inpAddress" type="text" onClick="this.select();" onkeypress="return keyPressMain(event);" />
+			<select id="selAddress" name="select_address" size="1" ></select>
+		</div>
+		<div align="center" >
+			<button id="btConnect" onClick="onClickConnect()">Connect</button>
+		</div>
+	</body>
+</html>		

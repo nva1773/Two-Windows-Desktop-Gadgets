@@ -1,0 +1,56 @@
+<!--
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2019 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+
+<html>
+	<head>
+		<meta http-equiv="MSThemeCompatible" CONTENT="yes" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Phonebook Gadget</title>
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+		<script language="javascript" type="text/javascript" src="js/settings.js"></script>
+		<script language="javascript" type="text/javascript" src="js/flyout.js"></script>
+		<script language="javascript" type="text/javascript" src="js/main.js"></script>
+	</head>
+	
+	<body scroll="no" unselectable="on" onLoad="initMain()">
+        <g:background id="imgBackground">
+			<span id="gadgetContent"></span>
+			
+			<select id="selGroup" size="1" onchange="selectedGroup();"></select>
+						
+			<!-- max length = 7 char -->
+			<p id="strName1" class="txtContact" style="position: absolute; top: 35 ; left: 23" onmouseover="selectContactLine1();" onmouseout="hideContactLine1();" onclick="clickContactLine1();"></p>
+			<p id="strName2" class="txtContact" style="position: absolute; top: 55 ; left: 23" onmouseover="selectContactLine2();" onmouseout="hideContactLine2();" onclick="clickContactLine2();"></p>
+			<p id="strName3" class="txtContact" style="position: absolute; top: 75 ; left: 23" onmouseover="selectContactLine3();" onmouseout="hideContactLine3();" onclick="clickContactLine3();"></p>
+			<p id="strName4" class="txtContact" style="position: absolute; top: 95 ; left: 23" onmouseover="selectContactLine4();" onmouseout="hideContactLine4();" onclick="clickContactLine4();"></p>
+			<p id="strName5" class="txtContact" style="position: absolute; top: 115; left: 23" onmouseover="selectContactLine5();" onmouseout="hideContactLine5();" onclick="clickContactLine5();"></p>
+			
+			<!-- max length = 7 char -->
+			<p id="strPhone1" class="txtContact" style="position: absolute; top: 35 ; left: 76" onmouseover="selectContactLine1();" onmouseout="hideContactLine1();" onclick="clickContactLine1();"></p>
+			<p id="strPhone2" class="txtContact" style="position: absolute; top: 55 ; left: 76" onmouseover="selectContactLine2();" onmouseout="hideContactLine2();" onclick="clickContactLine2();"></p>
+			<p id="strPhone3" class="txtContact" style="position: absolute; top: 75 ; left: 76" onmouseover="selectContactLine3();" onmouseout="hideContactLine3();" onclick="clickContactLine3();"></p>
+			<p id="strPhone4" class="txtContact" style="position: absolute; top: 95 ; left: 76" onmouseover="selectContactLine4();" onmouseout="hideContactLine4();" onclick="clickContactLine4();"></p>
+			<p id="strPhone5" class="txtContact" style="position: absolute; top: 115; left: 76" onmouseover="selectContactLine5();" onmouseout="hideContactLine5();" onclick="clickContactLine5();"></p>
+			
+			<p id="strControl" class="txtControl" style="position: absolute; top: 140; left: 28"></p>
+			
+			<!-- common variable for Main, Setting and Flyout -->
+			<textarea id="strPhonebook" rows="1" cols="14" wrap="soft" style="visibility: hidden"> </textarea>
+			<input type="hidden" id="strContactGroup" size="14"></input>
+			<input type="hidden" id="strContactName"  size="14"></input>
+			<input type="hidden" id="strContactPhone" size="14"></input>
+						
+			<!-- debug -->            			
+			<p id="strDebug" class="txtDebug" style="position: absolute; top: 140;  left: 23; visibility: hidden"></p>
+			
+			<!-- targets -->
+			<div id="targets"></div>
+        </g:background>
+
+    </body>
+</html>		

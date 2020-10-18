@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>TightVNC</name>
+	<version>1.2</version>
+	<author name="Novikov Vlad">
+                <logo src="images/logo.jpg" />		
+	</author>
+	<copyright>© 2019 NVA</copyright>
+	<description>TightVNC Remote gadget for Windows.</description>
+	<icons>
+		<icon height="60" width="60" src="images/logo.jpg" />
+	</icons>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.2" src="main.htm" />
+			<permissions>full</permissions>
+			<platform minPlatformVersion="1.0" />
+			<defaultImage src="images/drag.png" />
+		</host>
+	</hosts>
+</gadget>

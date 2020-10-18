@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Tightvnc Settings</title>
+    <link href="css/settings.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="js/iofile.js"></script>
+	<script language="javascript" type="text/javascript" src="js/settings.js"></script>
+</head>
+
+<body onload="initSetting()">
+	<b style="font-size:12px;">Password:</b>
+	<input id="password" type="text" onkeypress="return keyPressSetting(event);" />
+	<br>
+	<p><b>Server List: max line-length 33 chars</b></p>
+	<textarea id="servers" rows="4" cols="33" wrap="soft" > </textarea>
+	<br>
+	<button id="btRestore" onClick="onClickRestore()">- Restore -</button>
+	<button id="btBackup" onClick="onClickBackup()">- Backup -</button>
+	<hr width="100%" />
+	<br>
+	<b style="font-size:12px;">Copyright (c) 2019 NVA.</b>
+</body>
+</html>

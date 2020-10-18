@@ -1,0 +1,35 @@
+<!--
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2019 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+
+<html>
+	<head>
+		<meta http-equiv="MSThemeCompatible" CONTENT="yes" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Phonebook Flyout</title>
+		<link type="text/css" rel="stylesheet" href="css/flyout.css" />
+		<script language="javascript" type="text/javascript" src="js/settings.js"></script>
+		<script language="javascript" type="text/javascript" src="js/flyout.js"></script>
+	</head>
+	
+	<body scroll="no" unselectable="on" onLoad="initFlyout()">
+        <g:background id="imgBackground">
+			<span id="gadgetContent"></span>
+			
+			<p id="lableGroup" class="label" style="position: absolute; top: 10 ; left: 15">Group</p>
+			<input type="text" size="14" id="strGroup" class="contactInfo" style="position: absolute; top: 27 ; left: 15" onkeypress="return keyGroup(event);"></input>
+			
+			<p id="lableName" class="label" style="position: absolute; top: 50 ; left: 15">Name</p>
+			<input type="text" size="14" id="strName" class="contactInfo" style="position: absolute; top: 67 ; left: 15" onkeypress="return keyName(event);"></input>
+			
+			<p id="lablePhone" class="label" style="position: absolute; top: 90 ; left: 15">Phone</p>
+			<input type="text" size="14" id="strPhone" class="contactInfo" style="position: absolute; top: 107 ; left: 15" onkeypress="return keyPhone(event);"></input>
+			
+			<div id="targets"></div>
+		</g:background>
+    </body>
+</html>		

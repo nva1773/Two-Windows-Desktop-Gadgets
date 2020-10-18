@@ -1,0 +1,73 @@
+﻿/*
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2019 NVA.  All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+body
+{
+    margin: 0;
+    width: 135px;
+    height: 162px;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+#gadgetContent
+{
+    margin-top: 5px;
+    width: 135px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+}
+
+#selGroup 
+{
+	width: 100px;
+	height: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	position: absolute;
+	top: 5 ; left: 22;
+	text-align: center;
+	font-size: 11px;
+	color: black;
+}
+
+.txtContact, .txtDebug
+{
+	font-family: tahoma;
+	font-weight: normal;
+    font-size: 11px;
+    color: black;
+}
+
+.txtControl
+{
+	font-family: Tahoma;
+	font-weight: bold;
+    font-size: 8px;
+    color: gray;
+    width: 69px;
+    text-align: center;
+}
+
+#targets
+{
+	position: absolute;
+	top: 0; left: 0;
+}
+
+.target
+{
+	position: absolute;
+	width: 48px;
+	height: 47px;
+	left: 0;
+	cursor: arrow;
+}
+	
