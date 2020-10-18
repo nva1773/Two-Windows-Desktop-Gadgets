@@ -14,15 +14,14 @@
 Для календаря больше всего понравился гаджет от Microsoft, который и был взят за основу.
 С часами было проще, темный фон и светлые цифры, текущее время и значек будильника.
 Особенность моих часов - это воспроизведение **mp3** файлов, для сигнала будильника, не запуская сторонний плеер.
-Настройки для TightVNC и Телефонной книги сохраняются в файле "ServerList.txt" и "ContactList.txt" соответственно.
 
 > В результате получилось следующее:
 
-![внешний вид](https://github.com/nva1773/Two-Windows-Desktop-Gadgets/blob/master/Images/Faceplate.jpg)
+![внешний вид](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/Faceplate.jpg)
 
 > В настройках календаря все просто: **N** бригад, график работы которых смещен относительно первой на **N** дней.
 
-![опции календаря](https://github.com/nva1773/Two-Windows-Desktop-Gadgets/blob/master/Images/CalendarOptions.jpg)
+![опции календаря](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/CalendarOptions.jpg)
 
 > Для часов с будильником настроек чуть больше:
 
@@ -31,6 +30,18 @@
 - управление разделителем **:** между часами и минутами;
 - установка времени срабатывания будильника;
 - выбор мелодии сигнала и его повтор.
+
+Настройки для TightVNC и Phonebook сохраняются в файле "ServerList.txt" и "ContactList.txt" соответственно.
+
+> Для TightVNC предусмотренно два режима ввода адресса, "Input" и "Select".
+
+![вид для TightVNC](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/TightVNC.jpg)
+
+> Список клиентов берется из файла "ServerList.txt"
+
+![опции TightVNC](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/TightVNCOptions.jpg)
+
+
 
 ***
 
