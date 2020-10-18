@@ -37,11 +37,17 @@
 
 ![вид для TightVNC](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/TightVNC.jpg)
 
-> Список клиентов берется из файла "ServerList.txt"
+> Список клиентов берется из файла "ServerList.txt", предворительно загруженый через опции:
 
 ![опции TightVNC](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/TightVNCOptions.jpg)
 
+В Телефонном справочнике можно как добавлять новые контакты, нажав кнопку "+" в правом нижнем углу, так и редактировать текущий контакт, просто нажав на него левой кнопкой мыши.
 
+![вид для Phonebook](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/Phonebook.jpg)
+
+> Список контактов берется из файла "ContactList.txt", предворительно загруженый через опции:
+
+![опции Phonebook](https://github.com/nva1773/Windows-Desktop-Gadgets/blob/master/Images/PhonebookOptions.jpg)
 
 ***
 
